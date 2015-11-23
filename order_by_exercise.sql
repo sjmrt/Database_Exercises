@@ -15,7 +15,8 @@ AND gender = 'M';
 SELECT *
 FROM employees
 WHERE last_name LIKE "E%"
-OR last_name LIKE "%e";
+OR last_name LIKE "%e"
+ORDER BY emp_no ASC;
 
 SELECT *
 FROM employees
