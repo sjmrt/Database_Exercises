@@ -1,13 +1,13 @@
 USE codeup_test_db;
 
-SELECT album_name AS "Albums released after 1991"
+DELETE
 FROM albums
 WHERE release_date > '1991';
 
-SELECT album_name AS "Reggae Genre"
+DELETE 
 FROM albums
 WHERE genre = "Reggae";
 
-SELECT album_name AS "Records by Eagles"
+DELETE 
 FROM albums
 WHERE artist = "Eagles";
