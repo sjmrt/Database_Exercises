@@ -6,4 +6,4 @@ SELECT *
 FROM employees
 WHERE last_name LIKE "E%"
 AND last_name LIKE "%e"
-GROUP BY last_name;
+GROUP BY first_name, last_name;
