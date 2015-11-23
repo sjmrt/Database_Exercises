@@ -1,12 +1,12 @@
 USE codeup_test_db;
 
-SELECT album_name AS "All albums in albums"
+SELECT album_name, sales AS "All albums in albums"
 FROM albums;
 
 UPDATE albums
 SET sales = (sales * 10);
 
-SELECT sales AS "new updated sales"
+SELECT album_name, sales AS "new updated sales"
 FROM albums; 
 
 
