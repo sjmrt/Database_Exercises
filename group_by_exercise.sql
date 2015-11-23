@@ -1,3 +1,9 @@
 SELECT title
 from titles 
 GROUP BY title ASC;
+
+SELECT *
+FROM employees
+WHERE last_name LIKE "E%"
+AND last_name LIKE "%e"
+GROUP BY last_name;
